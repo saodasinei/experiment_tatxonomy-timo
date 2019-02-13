@@ -1,0 +1,285 @@
+
+html,body{
+	height:100%;
+	background-color: #F2F2F2;
+}
+.container{
+	height:100%;
+}
+
+#r1{
+	margin-top:30px;
+	height:380pt;
+}
+#left{
+    border-top: solid 2px gray;
+    border-left: solid 2px gray;
+    height:380pt;
+}
+#right{
+	background-color: #e6e6e6;
+	border-right: solid 2px gray;
+	border-top: solid 2px gray;
+	border-left: solid 2px gray;
+	height:380pt;
+}
+#r2{
+	border: solid 2px gray;
+	height:70pt;
+}
+#bottom{
+	 
+}
+#t{
+	overflow-y: scroll;
+	height:100%;
+	padding-top:10pt;
+	padding-bottom:10pt;
+}
+
+
+/*timo*/
+ #chatframe{
+	margin:auto;
+	width:100%;
+	height:100%;
+}
+#chatbox{
+	overflow-y: scroll;
+	height:90%;
+}
+.s-ok{
+	background-color:#009682;
+	color:#FFFFFF;
+    float:right;
+}
+
+.content li {
+	margin-top: 10px;
+	clear: both;
+	overflow: hidden;
+}
+/*
+.content li img{
+	width: 50px;
+    height: 50px;
+}*/
+.content li span{
+	max-width:500px;
+}
+
+.user-r{
+	color:#009682;
+}
+
+
+#user-text-ok{
+	background-color: #009682;
+	color: #FFFFFF;
+}
+#user-text-ok img{
+	width:20px;
+	height:20px;
+}
+
+#keyword{
+	outline: none;
+    border-width:0px 0px 1px 0px;
+    border-color:#009682;
+    margin-top:10px;
+}
+#project-name{
+	outline: none;
+    border-width:0px 0px 1px 0px;
+    border-color:#009682;
+    margin-top:10px;
+
+}
+
+.profile{
+	width: 50px;
+    height: 50px;
+}
+
+
+.srobot span{
+	background: #FFFFFF;
+	padding: 10px;
+	float: left;
+	margin: 6px 10px 0 10px;
+	border: 1px solid #C9C9C9;
+	box-shadow: 0 0 3px #ccc;
+}
+.srobot img{
+	float:left;
+}
+
+.srobot-waiting span{
+	background: #FFFFFF;
+	padding: 10px;
+	float: left;
+	margin: 6px 10px 0 10px;
+	border: 1px solid #C9C9C9;
+	border-left: 5px solid #009682;
+	box-shadow: 0 0 3px #ccc;
+}
+
+.srobot-waiting img{
+	float:left;
+}
+
+.suser span{
+	background: #009682;
+	padding: 10px;
+	float: right;
+	margin: 6px 10px 0 10px;
+	border: 1px solid #C9C9C9;
+	box-shadow: 0 0 3px #ccc;
+}
+.suser-spinner span{
+	background: #FFFFFF;
+	padding: 10px;
+	float: right;
+	margin: 6px 10px 0 10px;
+	border: 1px solid #C9C9C9;
+	box-shadow: 0 0 3px #ccc;
+}
+.suser img{
+	float: right;
+}
+.timo-function button{
+	text-align: center;
+	margin-top:10px;
+}
+
+.stn-card img{
+	height:140px;
+	width:200px;
+}
+
+
+
+
+
+
+ /*spinner*/
+ .spinner {
+/*  margin: 100px auto 0;*/
+  width: 40px;
+  text-align: center;
+}
+ 
+.spinner > div {
+  width: 10px;
+  height: 10px;
+  background-color: #009682;
+ 
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: bouncedelay 1.4s infinite ease-in-out;
+  animation: bouncedelay 1.4s infinite ease-in-out;
+  /* Prevent first frame from flickering when animation starts */
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+ 
+.spinner .bounce1 {
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+ 
+.spinner .bounce2 {
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+ 
+@-webkit-keyframes bouncedelay {
+  0%, 80%, 100% { -webkit-transform: scale(0.0) }
+  40% { -webkit-transform: scale(1.0) }
+}
+ 
+@keyframes bouncedelay {
+  0%, 80%, 100% {
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+  } 40% {
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+  }
+}
+
+
+
+/* NEW ADDED CSS */
+
+/* technique button */
+.btn-secondary {
+    margin: 2pt;
+	background-color: #737373;
+}
+
+/* technique card */
+#modal-content1{
+	padding: 20px;
+}
+
+/* close the technique card */
+.close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.close:hover,
+.close:focus {
+    color: #f44336;
+    cursor: pointer;
+}
+
+/* name of technique with underline */
+h4{
+	text-decoration:underline;
+}
+
+/* paragraph in the technique card */
+p{
+	line-height: 20px;
+	padding: 3px 0;
+	margin: 3px 0;
+}
+
+/* hide id in the technique card*/
+#tn_id{
+  display:none;
+}
+
+/* selected technique button */
+.selected_tech{
+	display: inline-block;
+    /* padding: .25em .4em; */
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+	padding-right: .2em;
+    padding-left: .6em;
+    border-radius: 10rem;
+	color: #fff;
+    background-color: #6c757d;
+	margin-left: 10px; 
+	margin-top: 3px;
+	margin-bottom: 3px;
+	margin-right: 3px;
+}
+
+#bottom a{
+  background-color: #666;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+
+}

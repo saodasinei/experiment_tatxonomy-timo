@@ -1,0 +1,217 @@
+html,body{
+	height:100%;
+}
+.container{
+	height:100%;
+}
+#r1{
+	margin-top:30px;
+	height:70%;
+}
+#left{
+    border: solid 2px gray;
+    height:185pt;
+}
+/*#t1{
+	height:300px;
+    margin-top:60px;
+}*/
+#t2{
+	float:left;
+	height:170px;
+	width: 43px;
+	padding-left:18px;
+
+}
+
+#t3{
+	float:left;
+	height:63px;
+	width: 43px;
+	padding-left:18px;
+
+}
+
+#t4{
+	float:left;
+	height:163px;
+	width: 43px;
+	padding-left:18px;
+
+}
+
+#col1{
+	padding-left:10px;
+	padding-right:5px;
+}
+
+.dim{
+	margin-top:10px;
+	width:100%;
+	height:30px;
+}
+
+#dim1{
+	border-color: black;
+	background-color: #999999;
+	padding-top: 2px;
+	text-align:center;
+	color: black;
+	font-weight:bold;
+}
+
+.cha{
+	float:right;
+	height:auto;
+	width:75%;
+	margin-top:7px;
+	padding-left:2px;
+	font-weight:bold;
+	word-wrap:normal;
+	padding-top:2px;
+	padding-bottom:2px;
+}
+
+.cha1{
+	float:right;
+	height:auto;
+	width:75%;
+	margin-top:12px;
+	padding-left:2px;
+	font-weight:bold;
+	padding-top:2px;
+	padding-bottom:2px;
+}
+
+#right{
+	background-color: #e6e6e6;
+	border-right: solid 2px gray;
+	border-top: solid 2px gray;
+	border-left: solid 2px gray;
+	height:190pt;
+}
+#t{
+	overflow-y: scroll;
+	height:100%;
+	padding-top:10pt;
+	padding-bottom:10pt;
+}
+
+.selected{
+	background-color: gray;
+    color: white;
+}
+#r2{
+	border: solid 2px gray;
+	height:70pt;
+}
+#bottom{
+	height: 75%;
+
+}
+
+
+/* NEW ADDED CSS */
+
+/* taxonomy box */
+#taxonomy{
+	background-color: white;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #b3b3b3;
+}
+
+/* dimension style */
+#col{
+	background-color: white;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #b3b3b3;
+}
+
+/* technique box */
+/*#techniques{
+	background-color: #F7F7F7;
+	overflow-y:scroll;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #b3b3b3;
+}*/
+
+/* technique button */
+.btn-secondary {
+    margin: 2pt;
+	background-color: #737373;
+}
+
+/* technique card */
+#modal-content1{
+	padding: 20px;
+}
+
+/* close the technique card */
+.close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.close:hover,
+.close:focus {
+    color: #f44336;
+    cursor: pointer;
+}
+
+/* name of technique with underline */
+h4{
+	text-decoration:underline;
+}
+
+/* paragraph in the technique card */
+p{
+	line-height: 20px;
+	padding: 3px 0;
+	margin: 3px 0;
+}
+
+/* hide id in the technique card*/
+#tn_id{
+  display:none;
+}
+
+/* selected technique button */
+.selected_tech{
+	display: inline-block;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+	padding-right: .2em;
+    padding-left: .6em;
+    border-radius: 10rem;
+	color: #fff;
+    background-color: #6c757d;
+
+}
+
+#bottom a{
+  background-color: #666;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+
+}
+
+#image{
+	float:left;
+	width:20px;
+}
+
+#charac{
+	float:right;
+
+}

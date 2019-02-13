@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Conversitional Agent</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/timo.css">
+</head>
+<body>
+      
+
+       <div class="container">
+     	<div class="row" id="r1">
+     	  <div class="col-6" id="left">
+     			
+           <!-- chat frame -->
+              <div  id="chatframe">
+                <div id="chatbox">
+                  <ul class="content" id="scontent">
+
+          
+                  </ul>
+              </div>
+
+               <div class="input-group stick-bottom" id="user-text-input">
+                      <input id="user-text" type="text" class="form-control user-text" placeholder="" aria-label="type something" aria-describedby="basic-addon2">
+                        <div class="input-group-append">
+                            <button id="user-text-ok" placeholder="type something" class="btn btn-outline-secondary user-text-ok" type="button">
+                            <img src="../icons/send1.png" alt=""></button>
+                        </div>
+                 </div>      
+               </div>
+
+     
+     		</div>
+
+
+     		  <div class="col-6" id="right">
+     			     <div id="t"></div>
+     		  </div>
+        	 </div>
+
+     	       <div class="row" id="r2">
+     		     <div class="col-12" id="bottom">
+     	     </div>
+           </div>
+     	
+     	
+        </div>
+
+
+   
+      <!-- Large modal -->
+     <!--     <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg"></button>
+ -->
+         <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="mymodal">
+          <div class="modal-dialog modal-lg">
+           <div class="modal-content" id="modal-content1">
+		      <span class="close" data-dismiss="modal" aria-label="Close" aria-hidden="true">&times;</span>
+              <!-- <h3>Technique Name</h3> -->
+              <h4 id="tn_name"></h4>
+              <p id="tn_id"></p>
+              <h5>Description</h5>
+              <p id="tn_dc"></p>
+              <h5>Instruction</h5>      
+              <p id='tn_is'></p>
+
+              <a id="tn-select" class="btn btn-secondary" style="color: white">Select</a>
+         </div>
+         </div>
+      </div>
+
+
+
+
+
+
+
+
+     <script src="../js/jquery-3.3.1.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+     <script src="../js/timo.js" type="text/javascript"></script>
+	
+</body>
+</html>

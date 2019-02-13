@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Taxonomy</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/taxonomy.css">
+</head>
+<body>
+	 
+     <div class="container">
+     	<div class="row" id="r1">
+     		<div class="col-12" id="left">
+     			<div class="taxonomy">
+     				<div class="row">
+						<!-- DP -->
+     					<div class="col" id= "col1" > 
+							<div><a class="btn btn-outline-secondary dim disabled" id = "dim1">Design Phases</a></div>				
+							
+							<div class="image">
+							<img src="../icons/P3.png" alt="" id="t2">
+							</div>							
+							
+							<div class="charac" id="DP">							
+							<a class="btn btn-outline-secondary btn-sm cha1 dp char" id="cha11" name="Planning">Planning</a>
+							<a class="btn btn-outline-secondary btn-sm cha dp char" id="cha12" name="Low-Fidelity Prototyping"> Low-Fidelity </br> Prototyping</a>
+							<a class="btn btn-outline-secondary btn-sm cha dp char" id="cha13" name ="High-Fidelity Prototyping"> High-Fidelity </br> Prototyping</a>
+							<a class="btn btn-outline-secondary btn-sm cha dp char" id="cha14" name="Release">Release</a>
+							</div>
+						
+						</div>
+						
+						<!-- TD -->
+     					<div class="col" id= "col1"> 
+							<div><a class="btn btn-outline-secondary dim disabled" id = "dim1">Time Dependency</a></div>
+							
+							<div class="image">
+							<img src="../icons/P4.png" alt="" id="t3">
+							</div>									
+							
+							<div class="charac" id="TD">							
+							<a class="btn btn-outline-secondary btn-sm cha1 td char" id="cha21" name="Real-Time">Real-Time</a>
+							<a class="btn btn-outline-secondary btn-sm cha td char" id="cha22" name="Retrospective">Retrospective</a>
+							</div>						
+						</div>
+						
+						<!-- D -->
+     					<div class="col" id= "col1">
+						<div><a class="btn btn-outline-secondary dim disabled" id = "dim1">Duration</a></div>
+							
+							<div class="image">
+							<img src="../icons/P4.png" alt="" id="t3">
+							</div>	
+							
+							<div class="charac" id="D">
+							<a class="btn btn-outline-secondary btn-sm cha1 d char" id="cha31" name="Long-Term Study">Long-Term Study</a>
+							<a class="btn btn-outline-secondary btn-sm cha d char" id="cha32" name="Short-Term Study">Short-Term Study</a>
+     					</div>
+						</div>	
+						
+						<!-- UP -->
+						<div class="col" id= "col1">
+						<div><a class="btn btn-outline-secondary dim disabled" id = "dim1">User Participation</a></div>
+						
+							<div class="image">
+							<img src="../icons/P4.png" alt="" id="t3">
+							</div>
+						
+							<div class="charac" id="UP">                                                
+							<a class="btn btn-outline-secondary btn-sm cha1 up char" id="cha41" name="User Attendance">User Attendance</a>
+							<a class="btn btn-outline-secondary btn-sm cha up char" id="cha42" name="User Absence">User Absence</a>
+							</div>						
+						</div>
+						
+						<!-- ET -->
+     					<div class="col" id= "col1">
+						<div><a class="btn btn-outline-secondary dim disabled" id = "dim1">Evaluation Type</a></div>
+						
+							<div class="image">
+							<img src="../icons/P5.png" alt="" id="t4">
+							</div>
+						
+							<div class="charac" id="ET">                         
+							<a class="btn btn-outline-secondary btn-sm cha1 et char" id="cha51" name="Questionnaire">Questionnaire</a>
+							<a class="btn btn-outline-secondary btn-sm cha et char" id="cha52" name="Interview">Interview</a>
+							<a class="btn btn-outline-secondary btn-sm cha et char" id="cha53" name="Experiment">Experiment</a>
+							<a class="btn btn-outline-secondary btn-sm cha et char" id="cha54" name="Observation">Observation</a>
+							<a class="btn btn-outline-secondary btn-sm cha et char" id="cha55" name="Group Discussion">Group Discussion</a>
+							</div>						
+						</div>     		
+						<!-- <a class="btn btn-secondary btn-block" id="refresh">Refresh</a> -->
+					</div>
+				</div>
+			</div>			
+			<div class="col-12" id="right">     			
+				<div id="t"></div>
+			</div>
+				
+      	     <div class="col-12" id="r2">
+     		     <div class="col-12" id="bottom">
+     	     </div>    	
+			</div>	 
+</div>
+
+
+       <!-- Large modal -->
+     <!--     <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg"></button>
+ -->
+         <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="mymodal">
+          <div class="modal-dialog modal-lg">
+           <div class="modal-content" id="modal-content1">
+		      <span class="close" data-dismiss="modal" aria-label="Close" aria-hidden="true">&times;</span>		   
+              <!-- <h3>Technique Name</h3> -->
+              <h4 id="tn_name"></h4>
+			  <br>
+              <p id="tn_id"></p>
+              <h5>Description</h5>
+		      <p id="tn_dc"></p>
+              <h5>Instruction</h5>			
+              <p id='tn_is'></p>
+
+              <a id="tn-select" class="btn btn-secondary" style="color: white">Select</a>
+         </div>
+         </div>
+      </div>
+
+	 <script src="../js/jquery-3.3.1.js"></script>	
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+     <script src="../js/taxonomy.js" type="text/javascript"></script>
+</body>
+</html>
