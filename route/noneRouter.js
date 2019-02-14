@@ -12,7 +12,7 @@ module.exports=function(){
 
 	var router=express.Router();
 
-    router.get('', (req,res,next)=>{
+    router.get('/', (req,res)=>{
     	res.render('none.html');
     })
 
@@ -34,11 +34,6 @@ module.exports=function(){
 
 	     });
     
-     // get none
-	router.get('/none', (req,res)=>{
-
-		res.render('none.html');		
-	});
 
 
 	return router;
