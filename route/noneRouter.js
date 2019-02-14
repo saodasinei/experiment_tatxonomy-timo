@@ -12,9 +12,9 @@ module.exports=function(){
 
 	var router=express.Router();
 
-    router.get('/', (req,res)=>{
+    router.get('', (req,res)=>{
     	res.render('none.html');
-    })
+    });
 
          router.get('/detail', (req,res)=>{
 
@@ -34,7 +34,6 @@ module.exports=function(){
 
 	     });
     
-
 
 	return router;
 
