@@ -2,7 +2,7 @@ const express=require('express');
 const mysql=require('mysql');
 
 const db=mysql.createPool({host:'localhost', user:'root',
- password:'0009682', database:'taxonomy_timo'});
+ password:'009682', database:'taxonomy_timo'});
 
 
 
