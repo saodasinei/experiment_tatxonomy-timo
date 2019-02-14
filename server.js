@@ -23,6 +23,7 @@ server.engine('html',consolidate.ejs);
 //route
 server.use('/taxonomy', require('./route/taxonomyRouter.js')());
 server.use('/timo', require('./route/timoRouter.js')());
+server.use('/none', require('./route/noneRouter.js')());
 
 
 

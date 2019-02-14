@@ -2,15 +2,18 @@ html,body{
 	height:100%;
 }
 .container{
-	height:100%;
+	
 }
+
 #r1{
 	margin-top:30px;
 	height:70%;
 }
 #left{
-    border: solid 2px gray;
-    height:185pt;
+    border-left: solid 2px gray;
+	border-top: solid 2px gray;
+	border-right: solid 2px gray;
+    height: 175pt;
 }
 /*#t1{
 	height:300px;
@@ -53,7 +56,7 @@ html,body{
 
 #dim1{
 	border-color: black;
-	background-color: #999999;
+	background-color: #e6e6e6;
 	padding-top: 2px;
 	text-align:center;
 	color: black;
@@ -70,6 +73,7 @@ html,body{
 	word-wrap:normal;
 	padding-top:2px;
 	padding-bottom:2px;
+	color: black;
 }
 
 .cha1{
@@ -81,6 +85,7 @@ html,body{
 	font-weight:bold;
 	padding-top:2px;
 	padding-bottom:2px;
+	color: black;
 }
 
 #right{
@@ -90,6 +95,15 @@ html,body{
 	border-left: solid 2px gray;
 	height:190pt;
 }
+
+#nonetop{
+	background-color: #e6e6e6;
+	border-right: solid 2px gray;
+	border-top: solid 2px gray;
+	border-left: solid 2px gray;
+	height:365pt;
+}
+
 #t{
 	overflow-y: scroll;
 	height:100%;
@@ -97,17 +111,13 @@ html,body{
 	padding-bottom:10pt;
 }
 
-.selected{
-	background-color: gray;
-    color: white;
-}
 #r2{
 	border: solid 2px gray;
 	height:70pt;
 }
+
 #bottom{
 	height: 75%;
-
 }
 
 
@@ -214,4 +224,9 @@ p{
 #charac{
 	float:right;
 
+}
+
+.selected{
+	background-color: #8c8c8c;
+	color: white;
 }
